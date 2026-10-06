@@ -1,101 +1,168 @@
-# Sample Webpage
+# Yogi Kanya Educational Trust - Website
 
-A clean, modern, and responsive webpage template ready to host on GitHub Pages.
+A professional, modern, and fully responsive website for **Yogi Kanya Educational Trust**, built with clean HTML, CSS, and JavaScript. Hosted on GitHub Pages.
+
+**Project Status:** ✅ Complete and Live
+
+## About This Project
+
+This website was created as a **goodwill project** for Yogi Kanya Educational Trust - an authorized study center providing distance education programs from India's leading universities.
+
+### Live Website
+🌐 **https://anoojpraba.github.io/Webpage**
 
 ## Features
 
-- 📱 **Responsive Design** - Works perfectly on all devices (desktop, tablet, mobile)
-- 🎨 **Modern Styling** - Clean and contemporary CSS with smooth animations
-- ⚡ **Fast Loading** - Lightweight HTML, CSS, and JavaScript
-- 🔗 **Easy Navigation** - Smooth scrolling navigation between sections
-- 🎯 **Customizable** - Easy to modify and personalize
+- 📱 **Fully Responsive** - Perfect on desktop, tablet, and mobile devices
+- 🎨 **Professional Design** - Modern sandle color theme with elegant typography
+- ⚡ **Fast & Optimized** - Lightweight and performance-optimized
+- 🗺️ **Google Maps Integration** - Interactive location with directions
+- 📧 **Contact System** - Multiple contact options and inquiry form
+- 🔗 **Smooth Navigation** - Intuitive navigation with smooth scrolling
+- 📱 **Mobile-First** - Optimized for all screen sizes
+
+## Website Sections
+
+1. **Home** - Hero section with compelling call-to-action
+2. **Quick Contact Bar** - Email, phone, address, hours (clickable)
+3. **About** - Organization overview and key statistics
+4. **Universities** - Partner universities with detailed information
+5. **Programs & Courses** - Undergraduate, Postgraduate, Professional courses
+6. **Consulting Services** - Career guidance and counseling services
+7. **Announcements** - Latest news and updates
+8. **Why Choose Us** - Key reasons to join YK Educational Trust
+9. **Get in Touch** - Contact form with complete office information
+10. **Contact Page** - Full contact details with interactive Google Map
+
+## Contact Information
+
+📍 **Office Address:**  
+Yogi Kanya Educational Trust  
+Anugraha, 10 Parvathavarthini Street  
+Ramavarmapuram, Nagercoil - 629001  
+Tamil Nadu, India
+
+📧 **Email:** yogikanyauniv@gmail.com  
+📞 **Phone:** +91 9442106543, +91 9442006543
+
+🗺️ **Google Maps:** https://maps.app.goo.gl/jFuoRkGVuP6F5UFC7
 
 ## File Structure
 
 ```
 .
-├── index.html    - Main HTML file
-├── style.css     - Stylesheet
-├── script.js     - JavaScript for interactivity
-└── README.md     - This file
+├── index.html           - Main homepage
+├── about.html          - About the organization
+├── universities.html    - Partner universities information
+├── programs.html       - Academic programs and courses
+├── contact.html        - Contact page with map
+├── style.css           - Professional CSS styling
+├── script.js           - Interactive functionality
+├── .gitignore          - Git ignore file
+├── .nojekyll           - Disable Jekyll processing
+└── README.md           - This file
 ```
 
-## Getting Started
+## Technology Stack
 
-1. Clone or fork this repository:
-   ```bash
-   git clone https://github.com/yourusername/Webpage.git
-   ```
+- **HTML5** - Semantic markup
+- **CSS3** - Modern styling with custom properties
+- **JavaScript** - Smooth interactions and form handling
+- **Google Maps API** - Interactive location embed
+- **GitHub Pages** - Free hosting and deployment
 
-2. Navigate to the directory:
-   ```bash
-   cd Webpage
-   ```
+## Color Scheme
 
-3. Open `index.html` in your browser to see the webpage locally
+- **Primary Color:** #C19A6B (Professional Sandle)
+- **Light Sandle:** #D4AF99
+- **Dark Sandle:** #8B7355
+- **Dark Text:** #1f2937
+- **Accents:** Green (#10b981), Gold (#f59e0b)
 
-## Hosting on GitHub Pages
+## Responsive Breakpoints
 
-### Method 1: Automatic (GitHub Pages from main branch)
-
-1. Push your code to GitHub
-2. Go to your repository settings
-3. Scroll down to "GitHub Pages" section
-4. Select "main branch" (or your branch) as the source
-5. Your site will be available at: `https://yourusername.github.io/Webpage`
-
-### Method 2: Using a docs folder
-
-1. Create a `docs` folder in your repository
-2. Move all files into the `docs` folder
-3. In repository settings, select "docs folder" as the GitHub Pages source
-4. Your site will be available at: `https://yourusername.github.io/Webpage`
-
-## Customization
-
-### Change the site title and content
-Edit `index.html` and update:
-- Page title in `<title>` tag
-- Logo text in `.logo` div
-- Section content as needed
-- Contact information links
-
-### Customize colors
-Edit `style.css` and modify the `:root` CSS variables:
-```css
-:root {
-    --primary-color: #3498db;      /* Change this color */
-    --secondary-color: #2c3e50;    /* Change this color */
-    --text-color: #333;
-    --light-bg: #ecf0f1;
-}
-```
-
-### Add more content
-- Add new sections by creating `<section>` elements in `index.html`
-- Add corresponding CSS in `style.css`
-- Update navigation links in the navbar
+- **Desktop:** 1024px and above
+- **Tablet:** 768px - 1023px
+- **Mobile:** 480px - 767px
+- **Small Mobile:** Below 480px
 
 ## Browser Support
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Mobile browsers
+- ✅ Chrome (latest)
+- ✅ Firefox (latest)
+- ✅ Safari (latest)
+- ✅ Edge (latest)
+- ✅ Mobile browsers (iOS Safari, Chrome Mobile)
+
+## Key Features
+
+### 1. Professional Design
+- Sandle color theme for professional appearance
+- Smooth animations and transitions
+- Modern typography and spacing
+
+### 2. Mobile Responsive
+- Tested on all device sizes
+- Touch-friendly interface
+- Optimized performance
+
+### 3. Easy to Maintain
+- Clean, organized code
+- Modular CSS structure
+- Simple navigation system
+
+### 4. SEO Friendly
+- Semantic HTML
+- Meta descriptions
+- Proper heading hierarchy
+
+## How to Use This Website
+
+### View Locally
+1. Clone the repository
+2. Open `index.html` in a web browser
+3. Navigate through all pages
+
+### Deploy Your Own Copy
+1. Fork this repository
+2. Rename it to `YourUsername.github.io` for user site
+3. Or use as-is for project site
+4. Push to GitHub
+5. Enable GitHub Pages in repository settings
+
+### Customize
+- Edit HTML files to change content
+- Modify `style.css` for different colors/fonts
+- Update contact information in all files
+- Add new pages by creating new HTML files
+
+## Future Enhancements
+
+Potential additions:
+- Student testimonials section
+- Online registration system
+- Blog/News section
+- Live chat support
+- Payment gateway integration
+- Student portal
+
+## Credits
+
+**Created as a goodwill project for:**  
+🎓 **Yogi Kanya Educational Trust**
+
+**Repository:** https://github.com/AnoojPraba/Webpage
 
 ## License
 
-This template is free to use for personal and commercial projects.
+This website is created for Yogi Kanya Educational Trust. All rights reserved.
 
-## Tips
-
-- Replace placeholder text with your actual content
-- Update contact links (email, GitHub, LinkedIn, etc.)
-- Test on multiple devices before publishing
-- Consider adding more projects or sections as needed
-- Use descriptive commit messages when updating
+For educational and non-commercial use.
 
 ---
 
-Enjoy your new webpage! 🚀
+**Status:** ✅ Live and Fully Functional  
+**Last Updated:** October 2026  
+**Hosted On:** GitHub Pages
+
+🚀 **Visit the live website:** https://anoojpraba.github.io/Webpage
