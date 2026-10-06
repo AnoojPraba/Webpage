@@ -549,6 +549,61 @@ footer {
     color: #9ca3af;
 }
 
+/* Quick Contact Info Bar */
+.contact-info-bar {
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    color: var(--white);
+    padding: 2.5rem 0;
+}
+
+.contact-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.contact-info-item {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.contact-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: 0.8;
+    margin-bottom: 0.25rem;
+}
+
+.contact-info-item a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 600;
+    transition: opacity 0.3s ease;
+}
+
+.contact-info-item a:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+.contact-info-item span {
+    color: var(--white);
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
 /* Consulting Services Section */
 .consulting {
     padding: 5rem 0;
@@ -796,6 +851,27 @@ footer {
 
     .nav-links {
         gap: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .contact-info-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .contact-info-item {
+        gap: 1rem;
+    }
+
+    .contact-icon {
+        font-size: 1.5rem;
+    }
+
+    .contact-label {
+        font-size: 0.75rem;
+    }
+
+    .contact-info-item span {
         font-size: 0.9rem;
     }
 }
