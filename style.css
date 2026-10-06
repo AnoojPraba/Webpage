@@ -739,15 +739,46 @@ h2 {
     border: 1px solid var(--light);
 }
 
+.map-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid var(--primary);
+}
+
 .map-section h3 {
     font-size: 1.5rem;
     color: var(--dark);
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     font-weight: 700;
+}
+
+.map-header p {
+    color: var(--gray);
+    font-size: 1rem;
+    line-height: 1.8;
+    word-wrap: break-word;
 }
 
 .map-section iframe {
     box-shadow: var(--shadow);
+    display: block;
+    width: 100%;
+}
+
+.map-section a {
+    background-color: var(--primary) !important;
+    color: var(--white) !important;
+    text-decoration: none;
+    padding: 0.875rem 2rem !important;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.map-section a:hover {
+    background-color: var(--primary-dark) !important;
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg);
 }
 
 /* Contact Section */
@@ -1069,6 +1100,18 @@ footer {
 
     .contact-form {
         padding: 1.2rem;
+    }
+
+    .map-section {
+        padding: 1.5rem;
+    }
+
+    .map-section h3 {
+        font-size: 1.3rem;
+    }
+
+    .map-header p {
+        font-size: 0.9rem;
     }
 
     .about, .universities, .programs, .consulting, .announcements, .why-choose, .contact {
