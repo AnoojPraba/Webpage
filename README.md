@@ -146,12 +146,17 @@ Potential additions:
 - Payment gateway integration
 - Student portal
 
-## Credits
+## Credits & Contributors
+
+**Author & Developer:**  
+👨‍💻 **AnoojPraba** (anooj.prabaharan@outlook.com)
 
 **Created as a goodwill project for:**  
 🎓 **Yogi Kanya Educational Trust**
 
 **Repository:** https://github.com/AnoojPraba/Webpage
+
+**GitHub:** https://github.com/AnoojPraba
 
 ## License
 

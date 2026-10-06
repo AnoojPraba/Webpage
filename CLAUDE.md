@@ -21,12 +21,19 @@ Alternative: anooj.prabaharan@outlook.com
 **Live Website:** https://anoojpraba.github.io/Webpage  
 **Type:** Goodwill Project
 
-## Important Notes
+## Contributor Information
 
-- ❌ **DO NOT add Claude as a co-author** in commit messages
-- ✅ **Use only AnoojPraba as author** for all commits
+**Primary Author & Maintainer:** AnoojPraba  
+**Email:** anooj.prabaharan@outlook.com  
+**GitHub Profile:** https://github.com/AnoojPraba
+
+## Important Guidelines
+
+- ❌ **Claude should NOT be listed as contributor**
+- ✅ **AnoojPraba is the sole author** of this project
 - 🔑 **SSH key is configured** - no password authentication needed
-- 📝 **Commit messages:** Should be authored by AnoojPraba only
+- 📝 **All commits authored by:** AnoojPraba only
+- 🚫 **No co-author attribution** in commit messages
 
 ## Project Details
 
