@@ -3,89 +3,319 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My Page</title>
+    <title>Yogi Kanya Educational Trust - Distance Education Programs</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navbar -->
     <nav class="navbar">
         <div class="container">
-            <div class="logo">MyPage</div>
+            <div class="logo">
+                <span class="logo-icon">🎓</span>
+                <span>Yogi Kanya</span>
+            </div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#universities">Universities</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#why-choose">Why Us</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </nav>
 
+    <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="container">
-            <h1>Hello, Welcome! 👋</h1>
-            <p>This is a simple, elegant webpage hosted on GitHub Pages</p>
-            <button class="btn" onclick="scrollToSection('about')">Learn More</button>
+        <div class="hero-content">
+            <div class="container">
+                <h1>Empower Your Future with Quality Education</h1>
+                <p>Flexible distance education programs from India's leading universities</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('programs')">Explore Programs</button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('contact')">Get in Touch</button>
+                </div>
+            </div>
         </div>
     </section>
 
+    <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2>About This Page</h2>
-            <p>This is a sample webpage created with clean HTML, CSS, and JavaScript. It's designed to be simple, responsive, and easy to customize.</p>
-            <div class="features">
-                <div class="feature">
-                    <h3>📱 Responsive</h3>
-                    <p>Works great on all devices</p>
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2>Welcome to Yogi Kanya Educational Trust</h2>
+                    <p>We are an authorized study center providing flexible and accredited distance education programs from reputed universities. Since our inception, we've helped thousands of students achieve their academic and career goals.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>10K+</h3>
+                            <p>Students Enrolled</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Programs Offered</p>
+                        </div>
+                        <div class="stat">
+                            <h3>95%</h3>
+                            <p>Success Rate</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="feature">
-                    <h3>🎨 Modern Design</h3>
-                    <p>Clean and contemporary styling</p>
-                </div>
-                <div class="feature">
-                    <h3>⚡ Fast</h3>
-                    <p>Lightweight and optimized</p>
+                <div class="about-features">
+                    <div class="feature-item">
+                        <div class="feature-icon">📚</div>
+                        <h3>Wide Range of Courses</h3>
+                        <p>Undergraduate to Postgraduate and Professional courses</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🏆</div>
+                        <h3>Trusted Universities</h3>
+                        <p>Partnership with top-ranked universities</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🎯</div>
+                        <h3>Career Support</h3>
+                        <p>Professional guidance and career consulting</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">⏰</div>
+                        <h3>Flexible Learning</h3>
+                        <p>Study at your own pace, anytime, anywhere</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="projects" class="projects">
+    <!-- Universities Section -->
+    <section id="universities" class="universities">
         <div class="container">
-            <h2>Projects</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3>Project 1</h3>
-                    <p>Description of your first project goes here. Add links and details as needed.</p>
-                    <a href="#" class="project-link">View →</a>
+            <h2>Our Partner Universities</h2>
+            <p class="section-subtitle">Authorized Study Centers for India's Most Prestigious Universities</p>
+            <div class="universities-grid">
+                <div class="university-card">
+                    <div class="university-header">
+                        <h3>Manonmaniam Sundaranar University</h3>
+                    </div>
+                    <p>Comprehensive undergraduate and postgraduate programs with flexible learning options.</p>
+                    <ul class="program-list">
+                        <li>✓ Bachelor of Arts (BA)</li>
+                        <li>✓ Master of Arts (MA)</li>
+                        <li>✓ Bachelor of Science (BSc)</li>
+                    </ul>
                 </div>
-                <div class="project-card">
-                    <h3>Project 2</h3>
-                    <p>Description of your second project goes here. Add links and details as needed.</p>
-                    <a href="#" class="project-link">View →</a>
+                <div class="university-card">
+                    <div class="university-header">
+                        <h3>Tamil Nadu Open University</h3>
+                    </div>
+                    <p>Specialized courses in education, administration, and professional development.</p>
+                    <ul class="program-list">
+                        <li>✓ B.Ed (Bachelor of Education)</li>
+                        <li>✓ M.Ed (Master of Education)</li>
+                        <li>✓ B.Com (Bachelor of Commerce)</li>
+                    </ul>
                 </div>
-                <div class="project-card">
-                    <h3>Project 3</h3>
-                    <p>Description of your third project goes here. Add links and details as needed.</p>
-                    <a href="#" class="project-link">View →</a>
+                <div class="university-card">
+                    <div class="university-header">
+                        <h3>Alagappa University</h3>
+                    </div>
+                    <p>Quality education with focus on research and professional excellence.</p>
+                    <ul class="program-list">
+                        <li>✓ B.A., B.Com, B.Sc</li>
+                        <li>✓ M.A., M.Com, M.Sc</li>
+                        <li>✓ Professional Certificates</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Programs Section -->
+    <section id="programs" class="programs">
+        <div class="container">
+            <h2>Our Programs & Courses</h2>
+            <p class="section-subtitle">Choose from a variety of academic programs tailored to your career goals</p>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-icon">🎓</div>
+                    <h3>Undergraduate Programs</h3>
+                    <p>Bachelor's degrees in various disciplines including Arts, Commerce, and Science.</p>
+                    <ul>
+                        <li>B.A (Bachelor of Arts)</li>
+                        <li>B.Com (Bachelor of Commerce)</li>
+                        <li>B.Sc (Bachelor of Science)</li>
+                    </ul>
+                    <button class="btn-small" onclick="scrollToSection('contact')">Learn More</button>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">📖</div>
+                    <h3>Postgraduate Programs</h3>
+                    <p>Master's degrees designed to enhance your expertise and career prospects.</p>
+                    <ul>
+                        <li>M.A (Master of Arts)</li>
+                        <li>M.Com (Master of Commerce)</li>
+                        <li>M.Sc (Master of Science)</li>
+                    </ul>
+                    <button class="btn-small" onclick="scrollToSection('contact')">Learn More</button>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">💼</div>
+                    <h3>Professional Courses</h3>
+                    <p>Specialized courses to develop industry-specific skills and competencies.</p>
+                    <ul>
+                        <li>B.Ed (Bachelor of Education)</li>
+                        <li>M.Ed (Master of Education)</li>
+                        <li>Certification Courses</li>
+                    </ul>
+                    <button class="btn-small" onclick="scrollToSection('contact')">Learn More</button>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">📚</div>
+                    <h3>Library Science</h3>
+                    <p>Specialized education in information science and library management.</p>
+                    <ul>
+                        <li>B.Lib.Sc (Library Science)</li>
+                        <li>M.Lib.Sc (Master's)</li>
+                        <li>Diploma Courses</li>
+                    </ul>
+                    <button class="btn-small" onclick="scrollToSection('contact')">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose" class="why-choose">
+        <div class="container">
+            <h2>Why Choose Yogi Kanya?</h2>
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <div class="reason-number">01</div>
+                    <h3>Accredited Programs</h3>
+                    <p>All programs are from recognized universities with national accreditation.</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-number">02</div>
+                    <h3>Flexible Schedule</h3>
+                    <p>Study at your own pace without compromising your work or family time.</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-number">03</div>
+                    <h3>Expert Guidance</h3>
+                    <p>Experienced mentors and counselors to guide your academic journey.</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-number">04</div>
+                    <h3>Affordable Fees</h3>
+                    <p>Competitive pricing with flexible payment options available.</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-number">05</div>
+                    <h3>Modern Library</h3>
+                    <p>Access to comprehensive study materials and digital resources.</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-number">06</div>
+                    <h3>Career Support</h3>
+                    <p>Career counseling and placement assistance for qualified students.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
             <h2>Get In Touch</h2>
-            <p>Feel free to reach out with any questions or opportunities</p>
-            <div class="contact-links">
-                <a href="mailto:your-email@example.com" class="contact-link">Email</a>
-                <a href="https://github.com" class="contact-link">GitHub</a>
-                <a href="https://linkedin.com" class="contact-link">LinkedIn</a>
-                <a href="https://twitter.com" class="contact-link">Twitter</a>
+            <p class="section-subtitle">Have questions? Contact us to learn more about our programs</p>
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <form onsubmit="handleSubmit(event)">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="tel" placeholder="Your Phone" required>
+                        <select required>
+                            <option value="">Select Program Interest</option>
+                            <option>Undergraduate</option>
+                            <option>Postgraduate</option>
+                            <option>Professional Courses</option>
+                            <option>Library Science</option>
+                        </select>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Inquiry</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Nagercoil, Tamil Nadu, India</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📧</div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@yogikanya.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91-XXXX-XXX-XXX</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">⏰</div>
+                        <div>
+                            <h3>Hours</h3>
+                            <p>Mon - Fri: 9:00 AM - 6:00 PM</p>
+                            <p>Sat: 10:00 AM - 4:00 PM</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 My Page. All rights reserved.</p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Yogi Kanya Educational Trust</h3>
+                    <p>Empowering students through quality distance education programs.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Yogi Kanya Educational Trust. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
 
     <script src="script.js"></script>

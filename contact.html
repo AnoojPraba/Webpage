@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Yogi Kanya Educational Trust</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">🎓</span>
+                <span>Yogi Kanya</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="universities.html">Universities</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="index.html#why-choose">Why Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" style="padding: 4rem 0;">
+        <div class="hero-content">
+            <div class="container">
+                <h1>Get In Touch</h1>
+                <p>Have questions? We're here to help you achieve your educational goals</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-page">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <h2>Send us a Message</h2>
+                    <form onsubmit="handleSubmit(event)">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Your Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Select Your Interest</option>
+                                <option>Undergraduate Programs</option>
+                                <option>Postgraduate Programs</option>
+                                <option>Professional Courses</option>
+                                <option>Library Science</option>
+                                <option>General Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Select University Preference</option>
+                                <option>Manonmaniam Sundaranar University</option>
+                                <option>Tamil Nadu Open University</option>
+                                <option>Alagappa University</option>
+                                <option>Not sure yet</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message (Optional)" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Send Inquiry</button>
+                    </form>
+                </div>
+
+                <div class="contact-info-section">
+                    <h2>Contact Information</h2>
+
+                    <div class="info-block">
+                        <div class="info-icon">📍</div>
+                        <div>
+                            <h3>Office Location</h3>
+                            <p>Yogi Kanya Educational Trust<br>
+                            Nagercoil, Tamil Nadu<br>
+                            India - 629001</p>
+                        </div>
+                    </div>
+
+                    <div class="info-block">
+                        <div class="info-icon">📧</div>
+                        <div>
+                            <h3>Email Address</h3>
+                            <p><a href="mailto:info@yogikanya.com">info@yogikanya.com</a></p>
+                            <p><a href="mailto:admissions@yogikanya.com">admissions@yogikanya.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-block">
+                        <div class="info-icon">📞</div>
+                        <div>
+                            <h3>Phone Numbers</h3>
+                            <p><a href="tel:+911234567890">+91 1234 567890</a></p>
+                            <p><a href="tel:+911234567891">+91 1234 567891</a></p>
+                            <p>Toll Free: 1800-XXX-XXXX</p>
+                        </div>
+                    </div>
+
+                    <div class="info-block">
+                        <div class="info-icon">⏰</div>
+                        <div>
+                            <h3>Business Hours</h3>
+                            <p><strong>Monday - Friday:</strong><br>9:00 AM - 6:00 PM</p>
+                            <p><strong>Saturday:</strong><br>10:00 AM - 4:00 PM</p>
+                            <p><strong>Sunday:</strong><br>Closed</p>
+                        </div>
+                    </div>
+
+                    <div class="info-block">
+                        <div class="info-icon">🌐</div>
+                        <div>
+                            <h3>Follow Us</h3>
+                            <div class="social-links-contact">
+                                <a href="#">Facebook</a>
+                                <a href="#">Twitter</a>
+                                <a href="#">LinkedIn</a>
+                                <a href="#">Instagram</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <p class="section-subtitle">Find answers to common questions about our programs and services</p>
+
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>What are the eligibility requirements?</h3>
+                    <p>Eligibility requirements vary by program. Generally, for undergraduate programs, you need a high school diploma or equivalent. For postgraduate programs, a bachelor's degree is required. Specific requirements are available on the university websites.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>How long do programs take to complete?</h3>
+                    <p>Undergraduate programs typically take 3 years, while postgraduate programs take 2 years. Professional courses like B.Ed can vary from 2-4 years. You can check specific durations in our Programs page.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>What is the cost of the programs?</h3>
+                    <p>Program fees vary depending on the university, program, and duration. We offer affordable fees with flexible payment options. Contact us for detailed fee information for your chosen program.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>How does distance education work?</h3>
+                    <p>Distance education involves self-paced learning through study materials, online resources, and digital platforms. You attend periodic on-campus sessions for exams and practical training. This flexibility allows you to balance education with work and family commitments.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Are distance education degrees recognized?</h3>
+                    <p>Yes! Our partner universities are government-recognized and their degrees are valued equally to regular degrees. All our universities are NAAC accredited, ensuring quality and recognition.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>How do I apply for admission?</h3>
+                    <p>You can start by filling an inquiry form on our website or contact us directly. We will guide you through the application process, help you choose the right program, and assist with admission to your chosen university.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>What support services are available?</h3>
+                    <p>We provide comprehensive support including academic guidance, career counseling, library access, online resources, and regular communication with university. Our team is available to help throughout your academic journey.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Can I transfer credits from other universities?</h3>
+                    <p>Credit transfer policies vary by university and program. Some universities allow transfers of completed coursework from accredited institutions. Contact us to discuss your specific situation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Yogi Kanya Educational Trust</h3>
+                    <p>Empowering students through quality distance education programs.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Yogi Kanya Educational Trust. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <style>
+        .contact-page {
+            padding: 5rem 0;
+            background-color: var(--light);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+        }
+
+        .contact-form {
+            background-color: var(--white);
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+        }
+
+        .contact-form h2 {
+            color: var(--primary);
+            margin-bottom: 2rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .contact-form input,
+        .contact-form textarea,
+        .contact-form select {
+            width: 100%;
+            padding: 0.9rem;
+            border: 1px solid #e5e7eb;
+            border-radius: 6px;
+            font-family: inherit;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus,
+        .contact-form select:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+        }
+
+        .contact-form textarea {
+            resize: vertical;
+        }
+
+        .contact-info-section h2 {
+            color: var(--primary);
+            margin-bottom: 2rem;
+        }
+
+        .info-block {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background-color: var(--white);
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+        }
+
+        .info-icon {
+            font-size: 2.5rem;
+            flex-shrink: 0;
+        }
+
+        .info-block h3 {
+            color: var(--dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .info-block p {
+            color: var(--gray);
+            margin-bottom: 0.5rem;
+        }
+
+        .info-block a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .info-block a:hover {
+            text-decoration: underline;
+        }
+
+        .social-links-contact {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .social-links-contact a {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: var(--primary);
+            color: var(--white);
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .social-links-contact a:hover {
+            background-color: var(--primary-dark);
+            text-decoration: none;
+        }
+
+        .faq-section {
+            padding: 5rem 0;
+        }
+
+        .faq-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .faq-item {
+            background-color: var(--light);
+            padding: 2rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--primary);
+        }
+
+        .faq-item h3 {
+            color: var(--dark);
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .faq-item p {
+            color: var(--gray);
+            line-height: 1.7;
+        }
+
+        @media (max-width: 768px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .info-block {
+                flex-direction: column;
+            }
+
+            .info-icon {
+                font-size: 2rem;
+            }
+
+            .faq-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+</html>
