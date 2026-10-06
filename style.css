@@ -729,6 +729,27 @@ h2 {
     line-height: 1.6;
 }
 
+/* Map Section */
+.map-section {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background-color: var(--white);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--light);
+}
+
+.map-section h3 {
+    font-size: 1.5rem;
+    color: var(--dark);
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.map-section iframe {
+    box-shadow: var(--shadow);
+}
+
 /* Contact Section */
 .contact {
     background-color: var(--lighter);
